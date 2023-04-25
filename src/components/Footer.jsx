@@ -13,7 +13,7 @@ const Footer = () => {
           {quickLinks.map((menu, index) => (
             <span
               key={index}
-              className="text-[#70757d] text-[12px] md:text[14px] leading-none p-[10px] md:p-[15px]"
+              className="text-[#70757d] text-[12px] md:text[14px] leading-none p-[10px] md:p-[15px] cursor-pointer"
             >
               {menu}
             </span>
@@ -23,7 +23,7 @@ const Footer = () => {
           {settingMenu.map((menu, index) => (
             <span
               key={index}
-              className="text-[#70757d] text-[12px] md:text[14px] leading-none p-[10px] md:p-[15px]"
+              className="text-[#70757d] text-[12px] md:text[14px] leading-none p-[10px] md:p-[15px] cursor-pointer"
             >
               {menu}
             </span>
